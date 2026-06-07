@@ -65,4 +65,11 @@
 
 phrase = "Hello, World! I love you"
 
-print(phrase[2:7])
+# print(phrase.split(" "))
+# print(phrase[2:7])
+
+# modified = phrase.split(" ")
+
+for word in phrase.split(" "):
+    print(word)
+print("")
