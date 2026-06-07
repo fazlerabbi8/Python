@@ -1,5 +1,7 @@
-# n = 10
+n = 10
 # name = "Fazle Rabbi"
+# delete n
+# del n
 # print(n, name)
 
 
@@ -13,12 +15,12 @@
 # print(x, y, z)
 
 
-# Concept of Object Reference(start)
-x = 5
-y= x
-x = "Fazle Rabbi"
-y = "Hello Python"
+# # Concept of Object Reference(start)
+# x = 5
+# y= x
+# x = "Fazle Rabbi"
+# y = "Hello Python"
 
 # now 5 is garbage value
-print(x, "to", y)
+# print(x, "to", y)
 # (end)
