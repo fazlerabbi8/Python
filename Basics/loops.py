@@ -55,8 +55,14 @@
 
 
 # brak statement
-for l in "HelloWorld":
-    if l == 'e' or l == 'r':
-        break
-        
-    print('current letter: ', l)
+# for l in "HelloWorld":
+#     if l == 'e' or l == 'r':
+#         break
+#
+#     print('current letter: ', l)
+
+
+
+phrase = "Hello, World! I love you"
+
+print(phrase[2:7])
