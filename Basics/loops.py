@@ -63,13 +63,31 @@
 
 
 
-phrase = "Hello, World! I love you"
+# phrase = "Hello, World! I love you"
+#
+# # print(phrase.split(" "))
+# # print(phrase[2:7])
+#
+# # modified = phrase.split(" ")
+#
+# for word in phrase.split(" "):
+#     print(word)
+# print("")
 
-# print(phrase.split(" "))
-# print(phrase[2:7])
 
-# modified = phrase.split(" ")
 
-for word in phrase.split(" "):
-    print(word)
-print("")
+
+# n = 4
+# for i in range(1, n):
+#     print(i)
+
+
+
+names = ["fazle rabbi", "ali", "sakib", "sojib", "akash"]
+for name in range(len(names)):
+    print(names[name])
+
+
+
+
+
