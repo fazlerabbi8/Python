@@ -89,10 +89,21 @@
 
 
 
-n = 0
-while n < 5:
-    n = n + 1
-    print("Hello World")
+# n = 0
+# while n < 5:
+#     n = n + 1
+#     print("Hello World")
+
+
+
+
+# Nested Loops
+
+for i in range(1,5):
+    for j in range(i):
+        print(i, end=" ")
+    print()
+
 
 
 
