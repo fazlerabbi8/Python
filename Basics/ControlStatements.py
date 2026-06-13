@@ -21,22 +21,32 @@
 
 
 
-
+# break statment
 matrix = [
     [5, 7, 9],
     [8, 3, 2],
     [1, 5, 6]
 ]
 
-value = 55
-found = False
+# value = 55
+# found = False
+#
+# for i in matrix:
+#     for x in i:
+#         if x == value:
+#             print("Found")
+#             found = True
+#             break
+# if not found:
+#     print("Not Found")
 
-for i in matrix:
-    for x in i:
-        if x == value:
-            print("Found")
-            found = True
-            break
-if not found:
-    print("Not Found")
+# continue statment
+
+value = 1;
+for r in matrix:
+    for c in r:
+        if c == value:
+            continue;
+        print(c, end=" ")
+
 
