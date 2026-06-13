@@ -22,11 +22,11 @@
 
 
 # break statment
-matrix = [
-    [5, 7, 9],
-    [8, 3, 2],
-    [1, 5, 6]
-]
+# matrix = [
+#     [5, 7, 9],
+#     [8, 3, 2],
+#     [1, 5, 6]
+# ]
 
 # value = 55
 # found = False
@@ -42,11 +42,18 @@ matrix = [
 
 # continue statment
 
-value = 1;
-for r in matrix:
-    for c in r:
-        if c == value:
-            continue;
-        print(c, end=" ")
+# value = 1;
+# for r in matrix:
+#     for c in r:
+#         if c == value:
+#             continue;
+#         print(c, end=" ")
 
 
+target = 0
+while target < 10:
+    if target == 6:
+        target += 1
+        continue
+    print(target)
+    target += 1
