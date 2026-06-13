@@ -47,6 +47,6 @@ for r in matrix:
     for c in r:
         if c == value:
             continue;
-        print(c, end="")
+        print(c, end=" ")
 
 
