@@ -34,3 +34,9 @@ n = 22
 print(f"name: {s3}, age: {n}")
 s4 = "my name is {} amd i am {} years old.".format("Fazle Rabbi", 22)
 print(s4)
+
+
+# substring exists inside a string
+
+print("bb" in s3)
+print("fr" in s3)
