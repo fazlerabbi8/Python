@@ -41,4 +41,12 @@ students["student1"]["id"] = '47014'
 students["student2"]["id"] = '47015'
 students["student3"]["id"] = '47016'
 
-print(students)
+
+# Accessing elements
+v1 = students["student1"]["age"]
+v2 = students["student1"]["id"]
+
+print("age : ", v1)
+print("id : ", v2)
+
+# print(students)
