@@ -7,5 +7,11 @@ l = [2, 4, 6, "ali", "sakib", 3.5]
 # print(l[-1])
 
 # insert element
-l.insert(3, 7)
+# l.insert(3, 7)
+# print(l)
+
+
+
+# extend the list
+l.extend([9, 7.7, "rabbi"])
 print(l)
