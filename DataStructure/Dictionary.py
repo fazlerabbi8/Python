@@ -18,11 +18,27 @@ d = {"name" : "Rabbi", "age" : 22,}
 
 # Iterating Through a Dictionary
 
-for key in d:
-    print(key)
+# for key in d:
+#     print(key)
+#
+# for value in d.values():
+#     print(value)
+#
+# for key, value in d.items():
+#     print
 
-for value in d.values():
-    print(value)
 
-for key, value in d.items():
-    print(key, value)
+
+# Creating a Nested Dictionary
+students = {}
+
+students["student1"] = {"name": "Rabbi", "age" : 22, "grade" : 'A+'}
+students["student2"] = {"name": "ali", "age" : 21, "grade" : 'B+'}
+students["student3"] = {"name": "sakib", "age" : 20, "grade" : 'C+'}
+
+# Adding Elements to a Nested Dictionary
+students["student1"]["id"] = '47014'
+students["student2"]["id"] = '47015'
+students["student3"]["id"] = '47016'
+
+print(students)
