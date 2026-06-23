@@ -15,5 +15,9 @@ str = "Hello World"
 
 # upper() and lower()
 
-print(str.upper())
-print(str.lower())
+# print(str.upper())
+# print(str.lower())
+
+# strip()
+s1 = "  Hello World        "
+print(s1.strip())
