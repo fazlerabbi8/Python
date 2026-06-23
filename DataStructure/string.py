@@ -10,5 +10,10 @@ str = "Hello World"
 
 
 # Updating a String
-str2 = str.replace("World", "Rabbi")
-print(str2)
+# str2 = str.replace("World", "Rabbi")
+# print(str2)
+
+# upper() and lower()
+
+print(str.upper())
+print(str.lower())
