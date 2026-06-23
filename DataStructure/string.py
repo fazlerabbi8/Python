@@ -1,4 +1,4 @@
-str = "Hello World"
+str = "Hello World "
 # print(str[2])
 # print(str[-3])
 
@@ -19,5 +19,18 @@ str = "Hello World"
 # print(str.lower())
 
 # strip()
-s1 = "  Hello World        "
-print(s1.strip())
+# s1 = "  Hello World        "
+# print(s1.strip())
+
+
+#  Repetition: A string can be repeated multiple times using *.
+# print(str * 5)
+
+
+
+# Formatting Strings
+s3 = "fazle rabbi"
+n = 22
+print(f"name: {s3}, age: {n}")
+s4 = "my name is {} amd i am {} years old.".format("Fazle Rabbi", 22)
+print(s4)
