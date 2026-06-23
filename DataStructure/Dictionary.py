@@ -46,7 +46,13 @@ students["student3"]["id"] = '47016'
 v1 = students["student1"]["age"]
 v2 = students["student1"]["id"]
 
-print("age : ", v1)
-print("id : ", v2)
+# print("age : ", v1)
+# print("id : ", v2)
 
-# print(students)
+# Deleting a key from inner dictionary
+del students["student1"]["age"]
+
+# Deleting an entire inner dictionary
+del students["student2"]
+
+print(students)
